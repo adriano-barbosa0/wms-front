@@ -19,6 +19,26 @@ public class Usuario {
     @Column(name = "telefone", length = 15, nullable = true)
     private String telefone;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
